@@ -8,7 +8,7 @@ resource "aws_instance" "ec2_via_terraform" {
 }
 
 resource "aws_s3_bucket" "s3_via_terraform" {
-  bucket = "s3-via-terraform-bucket_2026"
+  bucket = "s3-via-terraform-bucket-2026"
 
   tags = {
     Name        = "My bucket"
